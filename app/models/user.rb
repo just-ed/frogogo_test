@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  mount_uploader :avatar, AvatarUploader
+  
   has_secure_password
 
   validates :phone_number, presence: true, uniqueness: true, numericality: true

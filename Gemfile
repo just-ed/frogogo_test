@@ -5,12 +5,16 @@ ruby '2.4.6'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap'
+gem 'carrierwave'
+gem 'dotenv-rails'
+gem 'fog-aws'
 gem 'jbuilder', '~> 2.5'
 gem 'jwt'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.3'
 gem 'rails_admin'
+gem 'rmagick'
 gem 'turbolinks'
 
 group :development, :test do

@@ -1,24 +1,30 @@
-# README
+# Тестовое задание от Frogogo
+Ruby 2.4, Rails 5.2, db: postgresql
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+В приложении реализована модель `User` с полями:  
+* имя
+* уникальный номер телефона
+* пароль
+* аватар
 
-Things you may want to cover:
+Загрузка аватаров реализована с помощью AWS.
 
-* Ruby version
+## Админка
+Реализовано: просмотр, создание, изменение, удаление пользователей  
+Демо: https://frogogo-t.herokuapp.com/admin/
 
-* System dependencies
+## API для пользователей
+Реализовано:
+* регистрация по номеру телефона и паролю
+* просмотр и обновление своих данных
+* просмотр информации о себе и других пользователях
 
-* Configuration
+## Как пользоваться
 
-* Database creation
+Создать БД `frogogo_test` в `postgresql`
 
-* Database initialization
+```
+git clone https://github.com/just-ed/frogogo_test.git
+bundle && bundle exec rails db:migrate
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

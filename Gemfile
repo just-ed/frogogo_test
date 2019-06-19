@@ -16,6 +16,7 @@ gem 'rails', '~> 5.2.3'
 gem 'rails_admin'
 gem 'rmagick'
 gem 'turbolinks'
+gem 'uglifier'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

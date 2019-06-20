@@ -21,7 +21,7 @@ Ruby 2.4, Rails 5.2, db: postgresql
 
 ## Как пользоваться
 
-Создать БД `frogogo_test` в `postgresql`
+Создать БД `frogogo_test_development` в `postgresql`
 
 ```
 git clone https://github.com/just-ed/frogogo_test.git

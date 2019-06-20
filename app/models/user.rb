@@ -5,7 +5,7 @@ class User < ApplicationRecord
 
   validates :phone_number, presence: true, 
                            uniqueness: true,
-                           numericality: true
+                           numericality: true,
                            length: { minimum: 10 }
   validates :name, presence: true, length: { minimum: 2 }
   validates :password,
